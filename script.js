@@ -8,4 +8,13 @@
 
 \f0\fs28 \cf2 function\cf3  showAlert() \{\
     alert(\cf4 "Thank you for your interest! We'll contact you soon."\cf3 );\
+   <script>
+  function openForm() {
+    document.getElementById("popupForm").style.display = "flex";
+  }
+
+  function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+  }
+</script> 
 \}}
