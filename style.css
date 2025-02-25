@@ -30,6 +30,16 @@
   font-size: 20px;
   cursor: pointer;
 }
+<img src="IMG_1095.jpeg" class="responsive-image" alt="Image description">
+
+<style>
+  .responsive-image {
+    max-width: 100%;  /* Ensures image doesn't overflow */
+    height: auto;  /* Keeps aspect ratio */
+    display: block;  /* Removes extra space */
+    margin: 0 auto;  /* Centers image */
+  }
+</style>
 <p class="p1"><span class="s1">body</span><span class="s2"> {</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">font-family</span><span class="s1">: Arial, sans-serif;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">margin</span><span class="s1">: </span><span class="s4">0</span><span class="s1">;</span></p>
