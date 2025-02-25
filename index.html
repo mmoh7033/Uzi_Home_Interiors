@@ -25,6 +25,26 @@
         <h2>Transform Your Living Space</h2>
         <p>We create stunning and functional interiors for your dream home.</p>
         <button onclick="showAlert()">Get a Free Consultation</button>
+  <!-- Button to Open the Form -->
+<button onclick="openForm()">Get a Free Consultation</button>
+
+<!-- Popup Form -->
+<div id="popupForm" class="form-container">
+  <form action="submit_form.php" method="POST" class="form-content">
+    <span onclick="closeForm()" class="close">&times;</span>
+    <h2>Get a Free Consultation</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
     </section>
 
     <section id="services">
